@@ -9,10 +9,8 @@ A threat actor may inject arbitrary operating system (OS) commands on target
 ## Code
 #### Target-Logic 
 ```php
-...
 $result = exec("ping -c4 ".$_GET["ip"]);
 echo($result)
-...
 ```
 
 #### Target-In
