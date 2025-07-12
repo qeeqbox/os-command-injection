@@ -20,6 +20,8 @@ The ping OS command is executed
 <p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/os-command-injection/main/content/4.png"></p>
 A threat actor could use logical opertator (&, &&, | or ||) or commands seperators (;) to make the host run extra commands
 <p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/os-command-injection/main/content/5.png"></p>
+The host executed the ping command and the whoami command
+<p align="center"> <img src="https://raw.githubusercontent.com/qeeqbox/os-command-injection/main/content/6.png"></p>
 
 ## Code
 When the user enters a hostname or IP to check their network connectivity, the webapp calls the add_ping() function. This function uses the internal ping OS command, the dynamic value from the user can contain a malicious payload that also gets executed by the host
