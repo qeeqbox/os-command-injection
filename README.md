@@ -4,7 +4,7 @@ An application utilizes operating system (OS) commands to perform actions. A thr
 
 Clone this current repo recursively
 ```sh
-git clone --recursive https://github.com/qeeqbox/os-command-injection
+git clone --recurse-submodules https://github.com/qeeqbox/os-command-injection
 ```
 Run the webapp using Python
 ```sh
