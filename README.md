@@ -35,16 +35,4 @@ def add_ping(self, ping):
         return True
     return False
 ```
- 
-## Impact
-Critical
 
-## Risk
-- Session Hijacking
-- Credential Theft
-
-## Redemption
-- Server input validation
-
-## ID
-cb251c97-067d-4f13-8195-4f918273f41b
